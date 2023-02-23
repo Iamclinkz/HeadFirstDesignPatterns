@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hfdp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/WeatherData.java" afterDir="false" />
+    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch2-observer">
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/myIO/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/myIO/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/coffee/DoubleCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/coffee/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/coffee/NormalCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/condiment/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/condiment/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch3_wrapper/starbuzz/condiment/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +47,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ch3_wrapper.myIO.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch2_observer.Main" />
       <module name="hfdp" />
@@ -67,8 +65,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch3_wrapper.myIO.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch3_wrapper.myIO.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch3_wrapper.myIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch3_wrapper.starbuzz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch3_wrapper.starbuzz.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch3_wrapper.starbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch3_wrapper.myIO.Main" />
+        <item itemvalue="Application.ch3_wrapper.starbuzz.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -81,8 +107,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676996761630</updated>
-      <workItem from="1676996762886" duration="2067000" />
+      <workItem from="1676996762886" duration="10969000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1677038908259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677038908259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add: ch2-observer">
+      <created>1677038933010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677038933010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +139,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="add: ch2-observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: ch2-observer" />
   </component>
 </project>
