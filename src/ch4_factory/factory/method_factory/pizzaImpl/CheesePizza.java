@@ -9,21 +9,21 @@ public class CheesePizza extends Pizza {
 
     @Override
     public void prepare() {
-        System.out.println("CheesePizza prepare, with toppings: "+toppings.toString());
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.CheesePizza prepare, with toppings: "+toppings.toString());
     }
 
     @Override
     public void bake() {
-        System.out.println("CheesePizza bake");
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.CheesePizza bake");
     }
 
     @Override
     public void cut() {
-        System.out.println("CheesePizza cut");
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.CheesePizza cut");
     }
 
     @Override
     public void box() {
-        System.out.println("CheesePizza box");
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.CheesePizza box");
     }
 }

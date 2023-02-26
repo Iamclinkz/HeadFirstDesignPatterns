@@ -9,21 +9,21 @@ public class ClamPizza extends Pizza {
 
     @Override
     public void prepare() {
-        System.out.println("ClamPizza prepare, with toppings:"+toppings.toString());
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.ClamPizza prepare, with toppings:"+toppings.toString());
     }
 
     @Override
     public void bake() {
-        System.out.println("ClamPizza bake");
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.ClamPizza bake");
     }
 
     @Override
     public void cut() {
-        System.out.println("ClamPizza cut");
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.ClamPizza cut");
     }
 
     @Override
     public void box() {
-        System.out.println("ClamPizza box");
+        System.out.println("ch4_factory.factory.with_ingredient.pizza.impl.ClamPizza box");
     }
 }
