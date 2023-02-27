@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch5-command">
-      <change afterPath="$PROJECT_DIR$/src/ch2_observer/swing/SwingObserverExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_observer/Subject.java" afterDir="false" />
-    </list>
+    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: command模式和observer模式思考" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,20 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sunliyuan/code/java/idea/hfdp/src/ch4_factory/factory/store_factory&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sunliyuan/code/java/idea/hfdp/src/ch6_command",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ch6_command" />
       <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory" />
       <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory/ingredientFactory/impl" />
       <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory/ingredientFactory/ingredient/impl" />
@@ -63,11 +59,11 @@
   </component>
   <component name="RunManager" selected="Application.SwingObserverExample">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5_command.command.Main" />
+      <option name="MAIN_CLASS_NAME" value="ch6_command.command.Main" />
       <module name="hfdp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5_command.command.*" />
+          <option name="PATTERN" value="ch6_command.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,7 +126,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SwingObserverExample" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ch6_command.command.Main" />
         <item itemvalue="Application.ch4_factory.factory.with_ingredient.Main" />
         <item itemvalue="Application.ch4_factory.factory.method_factory.Main" />
         <item itemvalue="Application.ch4_factory.factory.simple_factory.Main" />
@@ -147,7 +143,7 @@
       <updated>1676996761630</updated>
       <workItem from="1676996762886" duration="20414000" />
       <workItem from="1677255000374" duration="2988000" />
-      <workItem from="1677257999908" duration="18011000" />
+      <workItem from="1677257999908" duration="19062000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677038908259</created>
@@ -212,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677506349647</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add: ch6-command">
+      <created>1677512989309</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677512989309</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add: command模式和observer模式思考">
+      <created>1677513018454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513018454</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +248,8 @@
     <MESSAGE value="add: ch4-method factory" />
     <MESSAGE value="add: ch4-abstract factory" />
     <MESSAGE value="add: ch5-command" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: ch5-command" />
+    <MESSAGE value="add: ch6-command" />
+    <MESSAGE value="add: command模式和observer模式思考" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: command模式和observer模式思考" />
   </component>
 </project>
