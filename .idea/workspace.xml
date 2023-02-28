@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: command模式和observer模式思考" />
+    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: command模式和observer模式思考">
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/DuckUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/duck/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/duck/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/turkey/MyTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/duck_adapter/turkey/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/iterator_adapter/IteratorAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_adapter/iterator_adapter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,14 +61,14 @@
       <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory/ingredientFactory/ingredient" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch7_adapter.duck_adapter.turkey" />
       <recent name="ch2_observer.swing" />
       <recent name="ch5_command.command.impl" />
       <recent name="ch5_command.receiver" />
       <recent name="ch4_factory.factory.simple_factory" />
-      <recent name="ch4_factory.factory.store_factory.ingredientFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwingObserverExample">
+  <component name="RunManager" selected="Application.ch7_adapter.iterator_adapter.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch6_command.command.Main" />
       <module name="hfdp" />
@@ -84,32 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch4_factory.factory.method_factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_factory.factory.method_factory.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch4_factory.factory.method_factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch4_factory.factory.simple_factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_factory.factory.simple_factory.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch4_factory.factory.simple_factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ch4_factory.factory.with_ingredient.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch4_factory.factory.with_ingredient.Main" />
       <module name="hfdp" />
@@ -123,13 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch7_adapter.duck_adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7_adapter.duck_adapter.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch7_adapter.duck_adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch7_adapter.iterator_adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7_adapter.iterator_adapter.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch7_adapter.iterator_adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch7_adapter.iterator_adapter.Main" />
+        <item itemvalue="Application.ch7_adapter.duck_adapter.Main" />
         <item itemvalue="Application.SwingObserverExample" />
         <item itemvalue="Application.ch6_command.command.Main" />
         <item itemvalue="Application.ch4_factory.factory.with_ingredient.Main" />
-        <item itemvalue="Application.ch4_factory.factory.method_factory.Main" />
-        <item itemvalue="Application.ch4_factory.factory.simple_factory.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +154,7 @@
       <updated>1676996761630</updated>
       <workItem from="1676996762886" duration="20414000" />
       <workItem from="1677255000374" duration="2988000" />
-      <workItem from="1677257999908" duration="19062000" />
+      <workItem from="1677257999908" duration="22048000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677038908259</created>
@@ -222,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677513018454</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add: command模式和observer模式思考">
+      <created>1677513416623</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513416623</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
