@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch8-template method">
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/compose/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/compose/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/compose/component_impl/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/compose/component_impl/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/iterable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/iterable/MyIterableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/iterable/MyIteratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/iterators/DinerMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/iterators/PancakeMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/menu/impl/DinerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9_iterator/menu_iterator/menu/impl/PancakeHouseMenu.java" afterDir="false" />
+    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch10-state">
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/MyRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,20 +53,20 @@
       <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory/ingredientFactory/ingredient/impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch10_state.state.impl" />
       <recent name="ch9_iterator.compose" />
       <recent name="ch9_iterator.menu_iterator.iterators.impl" />
       <recent name="ch7_adapter.duck_adapter.turkey" />
       <recent name="ch2_observer.swing" />
-      <recent name="ch5_command.command.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch9_iterator.compose.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch8_template_method.frame.Main" />
+      <option name="MAIN_CLASS_NAME" value="ch11_proxy.rmi.remote.Main" />
       <module name="hfdp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch8_template_method.frame.*" />
+          <option name="PATTERN" value="ch11_proxy.rmi.remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch8_template_method.string_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch8_template_method.string_list.Main" />
+    <configuration name="ch10_state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_state.Main" />
       <module name="hfdp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch8_template_method.string_list.*" />
+          <option name="PATTERN" value="ch10_state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ch10_state.Main" />
         <item itemvalue="Application.ch9_iterator.compose.Main" />
         <item itemvalue="Application.ch9_iterator.menu_iterator.iterable.Main" />
         <item itemvalue="Application.ch9_iterator.menu_iterator.Main" />
-        <item itemvalue="Application.ch8_template_method.string_list.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +146,7 @@
       <updated>1676996761630</updated>
       <workItem from="1676996762886" duration="20414000" />
       <workItem from="1677255000374" duration="2988000" />
-      <workItem from="1677257999908" duration="39307000" />
+      <workItem from="1677257999908" duration="50077000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677038908259</created>
@@ -273,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677595204749</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add: ch9-iterator">
+      <created>1677667097183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677667097183</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add: ch10-state">
+      <created>1677751302355</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677751302355</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +304,8 @@
     <MESSAGE value="add: command模式和observer模式思考" />
     <MESSAGE value="add: ch7-adapter" />
     <MESSAGE value="add: ch8-template method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: ch8-template method" />
+    <MESSAGE value="add: ch9-iterator" />
+    <MESSAGE value="add: ch10-state" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: ch10-state" />
   </component>
 </project>
