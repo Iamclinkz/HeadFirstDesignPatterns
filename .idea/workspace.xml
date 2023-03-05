@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch10-state">
+    <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch11-proxy">
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/ImageComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_normal/ImageProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_normal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/ImageProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/state/impl/ImageIconState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/state/impl/ProxyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/handlers/NonOwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/handlers/OwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/person/PersonImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/MyRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/local/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/local/MyRemoteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/remote/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/remote/MyRemoteImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,36 +51,102 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sunliyuan/code/java/idea/hfdp/src/ch9_iterator/menu",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sunliyuan/code/java/idea/hfdp/src/ch11_proxy/invocation_handler&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ch11_proxy/invocation_handler" />
+      <recent name="$PROJECT_DIR$/src/ch11_proxy" />
       <recent name="$PROJECT_DIR$/src/ch9_iterator/menu" />
       <recent name="$PROJECT_DIR$/src/ch6_command" />
       <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory" />
-      <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory/ingredientFactory/impl" />
-      <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory/ingredientFactory/ingredient/impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch11_proxy.image_proxy.image_proxy_with_state" />
+      <recent name="ch11_proxy.image_proxy" />
       <recent name="ch10_state.state.impl" />
       <recent name="ch9_iterator.compose" />
       <recent name="ch9_iterator.menu_iterator.iterators.impl" />
-      <recent name="ch7_adapter.duck_adapter.turkey" />
-      <recent name="ch2_observer.swing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ch11_proxy.invocation_handler.Main">
+    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_proxy.gumball.GumballMachineTestDrive" />
+      <module name="hfdp" />
+      <option name="PROGRAM_PARAMETERS" value="localhost 300" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11_proxy.gumball.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_proxy.rmi.local.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11_proxy.rmi.local.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch11_proxy.image_proxy.image_proxy_normal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_proxy.image_proxy.image_proxy_normal.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11_proxy.image_proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch11_proxy.image_proxy.image_proxy_with_state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_proxy.image_proxy.image_proxy_with_state.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11_proxy.image_proxy.image_proxy_with_state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch11_proxy.invocation_handler.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_proxy.invocation_handler.Main" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11_proxy.invocation_handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch11_proxy.rmi.remote.Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11_proxy.rmi.remote.Main" />
       <module name="hfdp" />
       <extension name="coverage">
@@ -74,65 +159,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch10_state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_state.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch10_state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch9_iterator.compose.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch9_iterator.compose.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch9_iterator.compose.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch9_iterator.menu_iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch9_iterator.menu_iterator.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch9_iterator.menu_iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch9_iterator.menu_iterator.iterable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch9_iterator.menu_iterator.iterable.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch9_iterator.menu_iterator.iterable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.GumballMachineTestDrive" />
+      <item itemvalue="Application.ch11_proxy.invocation_handler.Main" />
+      <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_with_state.Main" />
+      <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_normal.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ch11_proxy.rmi.remote.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch11_proxy.invocation_handler.Main" />
+        <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_normal.Main" />
+        <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_with_state.Main" />
+        <item itemvalue="Application.ch11_proxy.rmi.remote.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ch10_state.Main" />
-        <item itemvalue="Application.ch9_iterator.compose.Main" />
-        <item itemvalue="Application.ch9_iterator.menu_iterator.iterable.Main" />
-        <item itemvalue="Application.ch9_iterator.menu_iterator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +187,11 @@
       <updated>1676996761630</updated>
       <workItem from="1676996762886" duration="20414000" />
       <workItem from="1677255000374" duration="2988000" />
-      <workItem from="1677257999908" duration="50077000" />
+      <workItem from="1677257999908" duration="51975000" />
+      <workItem from="1677771862612" duration="11326000" />
+      <workItem from="1677994495146" duration="319000" />
+      <workItem from="1677994824503" duration="5477000" />
+      <workItem from="1678008805527" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677038908259</created>
@@ -274,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677751302355</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add: ch10-state">
+      <created>1677755227716</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677755227716</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add: ch11-proxy">
+      <created>1678010069157</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678010069157</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +365,7 @@
     <MESSAGE value="add: ch8-template method" />
     <MESSAGE value="add: ch9-iterator" />
     <MESSAGE value="add: ch10-state" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: ch10-state" />
+    <MESSAGE value="add: ch11-proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: ch11-proxy" />
   </component>
 </project>
