@@ -2,26 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6099c853-7915-47e1-943a-7ce43901adbf" name="Changes" comment="add: ch11-proxy">
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/ImageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_normal/ImageProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_normal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/ImageProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/state/impl/ImageIconState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/image_proxy/image_proxy_with_state/state/impl/ProxyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/handlers/NonOwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/handlers/OwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/invocation_handler/person/PersonImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/MyRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/local/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/local/MyRemoteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/remote/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_proxy/rmi/remote/MyRemoteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/controller/impl/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/model/BeatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/model/impl/BeatModelImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/observer/BPMObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/observer/BeatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/view/BeatBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/beat_bar/view/DJView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/flock/Flock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/goose/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/goose/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/observer/quack_observer/QuackObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/observer/quack_observer/Quackologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/observer/quack_subject/QuackSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/observer/quack_subject/QuackSubjectHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable/impl/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable/impl/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable/impl/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable/impl/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable/impl/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable_factory/QuackableAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable_factory/impl/QuackableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/quackable_factory/impl/QuackableWithCounterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12_composite/review/wrapper/QuackableCounterWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,35 +59,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sunliyuan/code/java/idea/hfdp/src/ch11_proxy/invocation_handler&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sunliyuan/code/java/idea/hfdp/src/ch12_composite/beat_bar",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ch12_composite/beat_bar" />
+      <recent name="$PROJECT_DIR$/src/ch12_composite/review/quackable/impl" />
+      <recent name="$PROJECT_DIR$/src/ch12_composite/review/quackable" />
       <recent name="$PROJECT_DIR$/src/ch11_proxy/invocation_handler" />
       <recent name="$PROJECT_DIR$/src/ch11_proxy" />
-      <recent name="$PROJECT_DIR$/src/ch9_iterator/menu" />
-      <recent name="$PROJECT_DIR$/src/ch6_command" />
-      <recent name="$PROJECT_DIR$/src/ch4_factory/factory/store_factory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch12_composite.beat_bar" />
+      <recent name="ch12_composite.review.quackable_factory.impl" />
       <recent name="ch11_proxy.image_proxy.image_proxy_with_state" />
       <recent name="ch11_proxy.image_proxy" />
       <recent name="ch10_state.state.impl" />
-      <recent name="ch9_iterator.compose" />
-      <recent name="ch9_iterator.menu_iterator.iterators.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch11_proxy.invocation_handler.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DJTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch12_composite.beat_bar.DJTestDrive" />
+      <module name="hfdp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch12_composite.beat_bar.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11_proxy.gumball.GumballMachineTestDrive" />
       <module name="hfdp" />
@@ -95,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_proxy.rmi.local.Main" />
+      <option name="MAIN_CLASS_NAME" value="ch12_composite.beat_bar.Main" />
       <module name="hfdp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_proxy.rmi.local.*" />
+          <option name="PATTERN" value="ch12_composite.beat_bar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch11_proxy.image_proxy.image_proxy_with_state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_proxy.image_proxy.image_proxy_with_state.Main" />
-      <module name="hfdp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch11_proxy.image_proxy.image_proxy_with_state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ch11_proxy.invocation_handler.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11_proxy.invocation_handler.Main" />
       <module name="hfdp" />
@@ -146,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch11_proxy.rmi.remote.Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_proxy.rmi.remote.Main" />
+    <configuration name="ch12_composite.review.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch12_composite.review.Main" />
       <module name="hfdp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_proxy.rmi.remote.*" />
+          <option name="PATTERN" value="ch12_composite.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +169,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.GumballMachineTestDrive" />
+      <item itemvalue="Application.ch12_composite.beat_bar.DJTestDrive" />
       <item itemvalue="Application.ch11_proxy.invocation_handler.Main" />
-      <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_with_state.Main" />
+      <item itemvalue="Application.ch12_composite.review.Main" />
       <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_normal.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ch11_proxy.rmi.remote.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ch12_composite.beat_bar.DJTestDrive" />
+        <item itemvalue="Application.ch12_composite.review.Main" />
         <item itemvalue="Application.ch11_proxy.invocation_handler.Main" />
         <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_normal.Main" />
-        <item itemvalue="Application.ch11_proxy.image_proxy.image_proxy_with_state.Main" />
-        <item itemvalue="Application.ch11_proxy.rmi.remote.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +199,7 @@
       <workItem from="1677771862612" duration="11326000" />
       <workItem from="1677994495146" duration="319000" />
       <workItem from="1677994824503" duration="5477000" />
-      <workItem from="1678008805527" duration="1832000" />
+      <workItem from="1678008805527" duration="15458000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677038908259</created>
@@ -333,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678010069157</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add: ch11-proxy">
+      <created>1678011660750</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678011660750</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
